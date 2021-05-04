@@ -1,0 +1,45 @@
+{
+  "development": {
+    "username": "freedbtech_malleyAcademyUser",
+    "password": "root",
+    "database": "freedbtech_malleyAcademyMasterDB",
+    "host": "freedb.tech",
+    "dialect": "mysql"
+  },
+  "development-connection-check": {
+    "user": "freedbtech_malleyAcademyUser",
+    "password": "root",
+    "database": "freedbtech_malleyAcademyMasterDB",
+    "host": "freedb.tech",
+    "dialect": "mysql"
+  },
+  "development-global": {
+    "username": "Outsider",
+    "password": "biswajit-aws-db",
+    "database": "manas-valley-global",
+    "host": "13.233.130.97",
+    "dialect": "mysql"
+  },
+  "development-global-connection-check": {
+    "user": "Outsider",
+    "password": "biswajit-aws-db",
+    "database": "manas-valley-global",
+    "host": "13.233.130.97",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
