@@ -68,8 +68,8 @@ const storage = multer.diskStorage({
 let upload = multer({storage})
 /////////////////////////////////
 //Protected routes
-app.use("/api_v1/students", upload.array('file'), studentRoutes);
-app.use("/api_v1/fees", feesRoutes);
+app.use("/api_v1/students", isAuthenticated, upload.array('file'), studentRoutes);
+app.use("/api_v1/fees", isAuthenticated, feesRoutes);
 
 
 app.use("/api_v1/images/",serveStatic(path.join(__dirname, 'images')))
