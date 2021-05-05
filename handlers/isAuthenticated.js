@@ -12,7 +12,7 @@ module.exports = (req,res,next) => {
         jwt.verify(token, process.env.JWT_SECRET, (error,payload)=> {
             if(error) return errorGenerator(401,'You are not authorized',next)
 
-            console.log("sapna");
+           //S console.log("sapna");
             next();
         });
     }

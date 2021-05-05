@@ -36,10 +36,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "freedbtech_malleyAcademyUser",
+    "password": "root",
+    "database": "freedbtech_malleyAcademyMasterDB",
+    "host": "freedb.tech",
     "dialect": "mysql"
   }
 }

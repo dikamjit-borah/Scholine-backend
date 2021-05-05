@@ -87,15 +87,5 @@ app.use(errorHandler);
 // web/db server status
 app.listen(PORT, () => {
   console.log(`Node Server running on port ${PORT}`);
-  //const sqlConnection = mysql.createConnection(config[`${process.env.NODE_ENV}-connection-check`])
-  const sqlConnection = mysql.createConnection(config[`development-connection-check`])
-  return sqlConnection.connect((err)=> {
-    if(err) {
-      console.log("Database Connection Error: ", err ) 
-      return
-  }
 
-    console.log("Database connected with id", sqlConnection.threadId);
-  })
-  
 });
