@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "freedbtech_malleyAcademyUser",
-    "password": "root",
-    "database": "freedbtech_malleyAcademyMasterDB",
-    "host": "freedb.tech",
+    "username": "2LGvHOnoUo",
+    "password": "hdHwd5C1oy",
+    "database": "2LGvHOnoUo",
+    "host": "remotemysql.com",
     "dialect": "mysql"
   },
   "development-connection-check": {
@@ -36,10 +36,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "freedbtech_malleyAcademyUser",
-    "password": "root",
-    "database": "freedbtech_malleyAcademyMasterDB",
-    "host": "freedb.tech",
+    "username": "2LGvHOnoUo",
+    "password": "hdHwd5C1oy",
+    "database": "2LGvHOnoUo",
+    "host": "remotemysql.com",
     "dialect": "mysql"
   }
 }
